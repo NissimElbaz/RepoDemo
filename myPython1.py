@@ -18,12 +18,13 @@ for index, letter in enumerate(name):
         print("wow wow")
     else:
         print("🤴🤴🤴")
+
 count = 0
 while True:
-    number = int(input("type a number"))
-    if number%5 == 0
+    number = int(input("type a number: "))
+    if number%5 == 0:
         print(f"{number} is multiplle of 5")
         count += 1
-    else
+    else:
         break
-print(f"{count} multiplle on 5")
+print(f"you typed {count} numbers that multiplle of 5")
